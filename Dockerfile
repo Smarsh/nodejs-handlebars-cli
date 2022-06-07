@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:22.04
 WORKDIR /app
 RUN export DEBIAN_FRONTEND=noninteractive \
     && apt-get update -y \
