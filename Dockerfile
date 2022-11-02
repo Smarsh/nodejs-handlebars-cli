@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic-20220830
 WORKDIR /app
 RUN export DEBIAN_FRONTEND=noninteractive \
     && apt-get update -y \
